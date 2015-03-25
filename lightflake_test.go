@@ -7,7 +7,10 @@ import (
 )
 
 func TestFlake(t *testing.T) {
-	token := Generate(25)
+	token, err := Generate(0)
+	if err != nil {
+		t.Fatal(err)
+	}
 	t.Log(token)
 	timestamp, workerid := ParseFlake(token)
 	t.Log(EPOCH.Unix())
