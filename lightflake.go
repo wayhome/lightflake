@@ -1,4 +1,4 @@
-// Package lightflake is an ID generater, based
+// Package lightflake is an ID generator, based
 // on Timestamp + WorkerId + RandomNumber
 package lightflake
 
