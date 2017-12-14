@@ -3,4 +3,4 @@ An ID generator writen in Go, inspired by [snowflake](https://github.com/twitter
 
 # Usage
 
-See doc https://godoc.org/github.com/youngking/lightflake
+See doc https://godoc.org/github.com/wayhome/lightflake
